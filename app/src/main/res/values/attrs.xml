@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleIndicator">
+        <attr name="selectedPageDrawable" format="reference" />
+        <attr name="pageDrawable" format="reference" />
+        <attr name="pageSize" format="dimension" />
+        <attr name="selectedPageSize" format="dimension" />
+        <attr name="margin" format="dimension" />
+        <attr name="snap" format="boolean" />
+    </declare-styleable>
+
+</resources>

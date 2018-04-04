@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Market</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="order_success">Спасибо за заказ!</string>
+    <string name="pattern_price">%.0f руб.</string>
+    <string name="pattern_price_order">Сумма: %.0f руб.</string>
+    <string name="pattern_count_order">Кол-во товаров: %s</string>
+    <string name="pattern_number_order">Номер заказа: %s</string>
+
+    <string name="action_search">Поиск</string>
+    <string name="action_added">Добавлено</string>
+    <string name="action_deleted">Удалено</string>
+    <string name="action_cancel">Отменить</string>
+    <string name="action_minus">Убавить</string>
+    <string name="action_plus">Прибавить</string>
+    <string name="action_offer">Оформить</string>
+
+    <string name="action_add_to_cart">В корзину</string>
+
+    <string name="menu_catalog">Каталог</string>
+    <string name="menu_cart">Корзина</string>
+    <string name="menu_orders">Заказы</string>
+    <string name="menu_search">Поиск</string>
+
+
+</resources>

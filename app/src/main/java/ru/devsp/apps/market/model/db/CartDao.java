@@ -1,0 +1,45 @@
+package ru.devsp.apps.market.model.db;
+
+import android.arch.lifecycle.LiveData;
+import android.arch.persistence.room.Dao;
+import android.arch.persistence.room.Delete;
+import android.arch.persistence.room.Insert;
+import android.arch.persistence.room.OnConflictStrategy;
+import android.arch.persistence.room.Query;
+import android.arch.persistence.room.Update;
+
+import java.util.List;
+
+import ru.devsp.apps.market.model.objects.Cart;
+import ru.devsp.apps.market.model.objects.CartTotal;
+
+
+/**
+ * Получение данных по товарам в корзине
+ * Created by gen on 31.08.2017.
+ */
+@Dao
+public interface CartDao {
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    long insert(Cart item);
+
+    @Delete
+    void delete(Cart item);
+
+    @Update
+    void update(Cart item);
+
+    @Query("SELECT c.* FROM Cart c ORDER BY c.id")
+    LiveData<List<Cart>> getGoods();
+
+    @Query("SELECT c.* FROM Cart c WHERE c.id = :id")
+    LiveData<Cart> getGood(long id);
+
+    @Query("SELECT SUM(c.good_price * c.count) total FROM Cart c")
+    LiveData<CartTotal> getTotal();
+
+    @Query("DELETE FROM Cart")
+    void clear();
+
+}

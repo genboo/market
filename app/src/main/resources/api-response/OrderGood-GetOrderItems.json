@@ -1,0 +1,20 @@
+{
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "id": 24,
+      "title": "Ультрачерная тушь для ресниц «Бесконечный объем»",
+      "image": "https://images.faberlic.com/images/fl/TflGoods/md/1000253179391_15132579061.jpg",
+      "price": 599,
+      "count": 5
+    },
+    {
+      "id": 25,
+      "title": "Бальзам для губ «Вишневый конфитюр»",
+      "image": "https://images.faberlic.com/images/fl/TflGoods/md/1000212003561_15005613512.jpg",
+      "price": 159,
+      "count": 3
+    }
+  ],
+  "id": "1805-d:1517248069"
+}

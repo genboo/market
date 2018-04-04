@@ -1,0 +1,16 @@
+{
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "id": 2,
+      "title": "Крем",
+      "image": "https://images.faberlic.com/images/fl/TflGoods/md/1000344850272_15052989052.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Пена для бритья",
+      "image": null
+    }
+  ],
+  "id": "A:1804-d:1516610635"
+}

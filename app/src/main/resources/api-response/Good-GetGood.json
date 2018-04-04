@@ -1,0 +1,12 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "id": 1,
+    "title": "Духи",
+    "images": [
+      "https://images.faberlic.com/images/fl/TflGoods/md/1000333163657_15042692191.jpg",
+      "https://images.faberlic.com/images/fl/TflGoods/md/1000607309817_15100386743.jpg"
+    ]
+  },
+  "id": "A:1804-d:1516610635"
+}

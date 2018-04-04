@@ -1,0 +1,22 @@
+{
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "id": 1,
+      "title": "Парфюм",
+      "category": null,
+      "sort": 1,
+      "image": "https://images.faberlic.com/images/fl/TflRefGoodsCategory/_pic/1000180022438.jpg",
+      "childs": 2
+    },
+    {
+      "id": 4,
+      "title": "Уход за лицом",
+      "category": null,
+      "sort": 2,
+      "image": "https://images.faberlic.com/images/fl/TflRefGoodsCategory/_pic/1000180022442.jpg",
+      "childs": 0
+    }
+  ],
+  "id": "A:1804-d:1516610635"
+}
